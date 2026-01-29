@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 1s ease-out both;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1.5s ease-out both;
+}
+
+@keyframes scrollBarColorChange {
+  0% {
+    transform: translateY(0);
+    background-color: white;   /* white at the top */
+    opacity: 1;
+  }
+  50% {
+    background-color: #3b82f6; /* blue while moving down */
+  }
+  100% {
+    transform: translateY(12px);
+    background-color: white;   /* turns white again when returning */
+    opacity: 0;
+  }
+}
+
+.scroll-bar {
+  animation: scrollBarColorChange 1.4s infinite ease-in-out;
+}
