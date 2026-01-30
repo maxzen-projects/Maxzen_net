@@ -11,7 +11,7 @@ export default function HeroSection() {
   const videoSets = [
     "/Frontpage.mp4",
     "/automation.mp4",
-    "/Ai.mp4",
+    // "/Ai.mp4",
     "/design.mp4"
   ];
 
