@@ -1,15 +1,20 @@
 # dependencies
 node_modules/
 
+# caches
+.cache/
+node_modules/.cache/
+
 # build output
 dist/
 build/
-
-# caches
-.cache/
 .next/
-.vite/
+out/
 
 # env
 .env
 .env.local
+
+# OS junk
+.DS_Store
+Thumbs.db
