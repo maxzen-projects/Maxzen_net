@@ -5,14 +5,14 @@ import Lokesh from "../assets/Lokesh.JPG"
 export default function TeamCards() {
   const team = [
     {
-      name: "Lokesh",
-      role: "Marketing Director",
+      name: "Lokesh Naidu",
+      role: "Frontend-Developer",
       img: Lokesh,
-      bio: "Sarah has 10+ years of experience in creative marketing and brand strategy."
+      bio: "Lokesh has 4+ years of experience in developing frontend."
     },
     {
-      name: "James Cooper",
-      role: "CEO, InnovateX",
+      name: "Vamsi",
+      role: "CEO",
       img: lokesh,
       bio: "James founded InnovateX and leads the company with a vision for innovation."
     },
