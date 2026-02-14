@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    options {
+        disableConcurrentBuilds()
+    }
+
     environment {
         APP_NAME = "maxzen"
         IMAGE_TAG = "maxzen:test-${BUILD_NUMBER}"
@@ -12,7 +16,7 @@ pipeline {
 
         stage('Install') {
             steps {
-                sh 'npm install'
+                sh 'npm ci'
             }
         }
 
@@ -34,6 +38,15 @@ pipeline {
                 docker stop $CONTAINER_NAME 2>/dev/null || true
                 docker rm $CONTAINER_NAME 2>/dev/null || true
                 docker run -d -p $PORT:80 --name $CONTAINER_NAME $IMAGE_TAG
+                '''
+            }
+        }
+
+        stage('Cleanup Docker') {
+            steps {
+                sh '''
+                docker builder prune -af || true
+                docker image prune -af || true
                 '''
             }
         }
