@@ -1,20 +1,13 @@
-# dependencies
-node_modules/
-
-# caches
-.cache/
-node_modules/.cache/
-
-# build output
-dist/
-build/
-.next/
-out/
-
-# env
+node_modules
+.git
+.gitignore
+Dockerfile
+Jenkinsfile
+README.md
+build
+.cache
+coverage
 .env
-.env.local
-
-# OS junk
-.DS_Store
-Thumbs.db
+.env.*
+npm-debug.log
+*.log
