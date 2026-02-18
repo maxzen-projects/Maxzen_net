@@ -32,9 +32,8 @@ export default function Products() {
           </h1>
 
           <p className="text-lg md:text-xl text-gray-200 max-w-3xl leading-relaxed">
-            With a clear focus on transformation across Digital, Automation,
-            Infrastructure & Cloud domains, our products enable higher impact
-            with quicker go-to-market potential.
+            We build practical digital products that solve real operational problems — not just software projects.
+            Our focus areas include automation, cloud platforms, operational intelligence, and workflow optimization designed for fast deployment and measurable ROI.
           </p>
         </div>
       </div>
@@ -47,11 +46,10 @@ export default function Products() {
         </h2>
 
         <p className="text-gray-600 text-lg leading-relaxed max-w-5xl">
-          Our Product–Services–Solutions portfolio is as broad as it is focused,
-          especially on the convergence of new and emerging technologies.
-          We deliver Onshore. We deliver Offshore. We deliver Nearshore.
-          We Right Shore. We have proven experience in delivering
-          Build–Operate–Transform–Transfer models for global company.
+            Maxzen develops product-grade solutions combining engineering, usability, and scalability.
+            We partner with businesses through the full lifecycle:
+            Design → Build → Deploy → Operate → Improve
+            Instead of outsourcing, we act as a technology partner — continuously evolving the product as your business grows.
         </p>
 
       </section>

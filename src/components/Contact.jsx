@@ -62,7 +62,8 @@ const Contact = () => {
               </div>
               <div>
                 <h4 className="text-sm text-blue-600 font-medium">Location</h4>
-                <p className="text-lg font-semibold">4140 Parker, USA</p>
+                <p className="text-lg font-semibold">4th Floor, Manjeera Trinity Corporate</p>
+                <p className="text-lg font-semibold">KPHB, Hyderabad, Telangana, 521001</p>
               </div>
             </div>
 
@@ -74,7 +75,9 @@ const Contact = () => {
                 <h4 className="text-sm text-blue-600 font-medium">
                   Call Us 24/7
                 </h4>
-                <p className="text-lg font-semibold">+208-555-0112</p>
+                <p className="text-lg font-semibold">
+                  +91 8498-989844
+                </p>
               </div>
             </div>
 
@@ -84,9 +87,9 @@ const Contact = () => {
               </div>
               <div>
                 <h4 className="text-sm text-blue-600 font-medium">
-                  Make a Quote
+                  Email Us
                 </h4>
-                <p className="text-lg font-semibold">info@wotech.com</p>
+                <p className="text-lg font-semibold">info@maxzen.net</p>
               </div>
             </div>
           </div>

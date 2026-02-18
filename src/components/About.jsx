@@ -63,7 +63,9 @@ const About = () => {
           </h1>
 
           <p className="text-base lg:text-lg text-gray-200 leading-relaxed max-w-3xl">
-            Maxzen delivers smart, scalable digital and AI-driven solutions that help to accelerate transformation and achieve sustainable growth.
+            Maxzen delivers smart, scalable digital and AI-driven solutions that accelerate business transformation and enable sustainable growth.
+
+            We partner with organizations to modernize systems, improve efficiency, and unlock new opportunities through technology.
             </p>
         </div>
       </section>
@@ -86,10 +88,9 @@ const About = () => {
             </h2>
 
             <p className="text-gray-700 leading-relaxed mb-6">
-              At Maxzen, we believe innovation begins with collaboration. 
-              We help businesses leverage cutting-edge technology to create 
-              smarter, scalable, and secure digital solutions. Our team thrives 
-              on solving complex challenges with creativity, precision, and excellence.
+              At Maxzen, innovation begins with collaboration.
+              We help businesses leverage cutting-edge technology to build secure, scalable, and intelligent digital solutions. Our team thrives on solving complex problems with precision, creativity, and engineering excellence.
+              With expertise in software engineering, cloud computing, and data security, we transform ideas into reliable digital products that drive measurable business outcomes.
             </p>
 
             <p className="text-gray-700 leading-relaxed">
